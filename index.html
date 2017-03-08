@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="helloworldApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Hello World Angular!</title>
+    <link media="screen" rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
+    <script type="text/javascript" src="lib/angular.min.js"></script>
+    <script type="text/javascript" src="js/app.js"> </script>
+
+
+    </style>
+  </head>
+  <body ng-controller="mainCtrl">
+      <input type="text" ng-model="entradaTexto" />
+      <!-- <p>{{entradaTexto}}</p> -->
+
+      <button type="button" name="button" ng-click="exibirConteudo(entradaTexto)">Exibir</button>
+      <p></p>
+
+
+      <input type="text" name="" value="" ng-model="entradaNome" />
+      <input type="text" name="" value="" ng-model="entradaSobrenome"/>
+      <button type="button" name="button" ng-click="juntarNome(entradaNome, entradaSobrenome)">Exibir</button>
+  </body>
+</html>
